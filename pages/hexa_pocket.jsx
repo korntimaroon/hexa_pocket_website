@@ -21,42 +21,24 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Hexa Pocket
+          Hexa Pocket Cryptocurrency Wallet
         </h1>
 
-        <p className={styles.description}>
-          The cryptocurrency wallet. Get <a href="https://www.google.com"> Hexa Pocket</a> now.
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Join Hexa Pocket &rarr;</h2>
-            <p>The safest cryptocurrency wallet. Support all network</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Visit Hexa World &rarr;</h2>
-            <p>The NFT token marketplace, the NFT creator</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h2>Hexa Pocket API &rarr;</h2>
-            <p>Use Hexa Pocket API to create your Dapp.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Hexa World API &rarr;</h2>
-            <p>
-              Use Hexa World API to create your own cryptocurrency marketplace
-            </p>
-          </a>
+        <p>Register Hexa Pocket Crypto Currency Wallet</p>
+        <div>
+          <button className={styles.button_go}>Register</button>
+          <button className={styles.button_go}>To My Wallet</button>
         </div>
+
+        <div>
+          <p>Swap Chain Token, Swap Token, Sent Token, Recieve Token, Collect NFT.</p>
+        </div>
+
+        <div>
+          <p>Support all Cryptocurrency Network, Support All Token</p>
+        </div>
+        
+        
       </main>
 
       <footer className={styles.footer}>

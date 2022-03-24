@@ -1,7 +1,6 @@
 .menubar {
   width:100vw;
   height:70px;
-  background-color:green;
 }
 .menubar img {
   width:80px;
@@ -12,10 +11,10 @@
 }
 .menubar p {
   float:left;
-  margin-left:40px;
+  margin-left:60px;
   line-height:30px;
   font-weight:bold;
-  color:white;
+  color:black;
 }
 .container {
   min-height: 100vh;
@@ -136,4 +135,12 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.button_go {
+  background:#4d7cff11;
+  text-decoration:none;
+  border-radius:50px;
+  width:100px;
+  height:30px
 }
