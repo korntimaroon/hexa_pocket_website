@@ -8,8 +8,8 @@ export default function JoinHexa() {
     <div className={styles.container}>
       <div className={styles.menubar}>
         <img src="https://s3-alpha-sig.figma.com/img/1ebc/d26f/3e624e49c7a2fb19e36aeda93b5bcb3a?Expires=1649030400&Signature=BMHoPftyRxXgPm4VVWK7SFcAK2c7VspJBUpa9dyf37QqVW61c~JdIkTROsb8exxqbSY~gP0w4M7cyt36R4mqJ8kV4vOKBEl7w2RoXKVlRMNRvoFOyJh1M-vE8DE8DhTyDTQzB~nzvte9IOxDN1Nr74yMGwgVWXPbTI3uR8g7jp02zZL9pH4kT8N5FiqW-BvtdYvb4tI4Lsidib02fW-9oQkf2fxpp42KIfz3emwmY1KEzZeDj0MirAKkzEsijg8Gw48tPQi8Krudaii9A4C2TH35UcLhgiRuyDOYDmJrIJ7Dq3li0pkA6cvEsNcnbNuqjSCdtcP10sl2omCPsHU4dw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"  />
-        <p>Hexa Pocket</p>
-        <p>Hexa World</p>
+        <p><Link href="/hexa_pocket"> Hexa Pocket</Link></p>
+        <p><Link href="/hexa_world"> Hexa World</Link></p>
         <p>The API</p>
       </div>
       <Head>
